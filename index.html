@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Ha'hanna Consulting - Equitable Education</title>
+    <meta name="description" content="Ha'hanna is committed to equitable education with a focus on Indigenous youth. See how we can help you. Contact us today.">
+    <link rel="shortcut icon" href="https://assets.popsy.co/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMXhWQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ee40be86e8ea5a0208013d114b2ff48cc9dbaf50/aafb2444e2840720e0cafc0756fc9ff7.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Source+Serif+Pro:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        /*-------------------------------------------
+          GLOBAL STYLES & VARIABLES
+        -------------------------------------------*/
+        :root {
+            --text-color: rgb(55, 53, 47);
+            --background-color: rgb(255, 255, 255);
+            --heading-font: 'Source Serif Pro', serif;
+            --body-font: 'Open Sans', sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 2rem 1rem;
+            font-family: var(--body-font);
+            background-color: var(--background-color);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        /*-------------------------------------------
+          HEADER / NAVIGATION
+        -------------------------------------------*/
+        .header {
+            width: 100%;
+            max-width: 1024px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 3rem;
+        }
+
+        .logo-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--text-color);
+        }
+
+        .logo-image {
+            width: 48px;
+            height: 48px;
+            margin-right: 12px;
+        }
+
+        .logo-text {
+            font-family: var(--body-font); /* Based on Popsy's typical logo font style */
+            font-weight: 700;
+            font-size: 1.75rem;
+        }
+
+        /*-------------------------------------------
+          MAIN CONTENT
+        -------------------------------------------*/
+        .main-content {
+            width: 100%;
+            max-width: 1024px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        h1 {
+            font-family: var(--heading-font);
+            font-weight: 700;
+            font-size: 3rem;
+            margin: 0;
+            line-height: 1.2;
+        }
+
+        .sub-heading {
+             margin-top: -0.5rem; /* Tucks the second H1 closer to the first */
+        }
+
+        p {
+            font-size: 1.125rem;
+            max-width: 600px;
+            line-height: 1.6;
+            margin: 1rem 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--text-color);
+            color: var(--background-color);
+            font-family: var(--body-font);
+            font-weight: 600;
+            font-size: 1.125rem;
+            text-decoration: none;
+            padding: 1rem 2.5rem;
+            border-radius: 9999px; /* Pill shape */
+            margin: 1.5rem 0;
+            transition: opacity 0.2s ease-in-out;
+        }
+
+        .cta-button:hover {
+            opacity: 0.85;
+        }
+
+        .main-image {
+            width: 75%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 2.5rem; /* Rounded corners */
+            margin-top: 2rem;
+        }
+        
+        /* Responsive styles for smaller screens */
+        @media (max-width: 768px) {
+            body {
+                padding: 1.5rem 1rem;
+            }
+            h1 {
+                font-size: 2.5rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+            .main-image {
+                width: 95%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <a href="/" class="logo-link">
+            <img src="https://assets.popsy.co/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMWxWQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--cd1d0392688a1afd227695a345d2f95a581c3c7c/aafb2444e2840720e0cafc0756fc9ff7.png" alt="Ha'hanna Logo" class="logo-image">
+            <span class="logo-text">Ha'hanna</span>
+        </a>
+    </header>
+
+    <main class="main-content">
+        
+        <h1>Equitable Education</h1>
+        <h1 class="sub-heading">Consulting & Coaching</h1>
+        
+        <p>Ha'hanna is committed to equitable education with a focus on Indigenous youth. See how we can help you.</p>
+        
+        <a href="mailto:office@hahanna.org" class="cta-button">Let's talk</a>
+        
+        <img src="https://assets.popsy.co/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMXBWQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a77c110d31d32067e716049c3444eee1f76dc1f4/vintageoselc.jpg" alt="Children learning outdoors in a natural setting." class="main-image">
+
+    </main>
+
+</body>
+</html>
